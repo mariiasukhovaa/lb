@@ -10,6 +10,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "main", "main.vcxproj", "{0A
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math_func", "..\Math_func\Math_func\Math_func.vcxproj", "{61DEE12F-57D1-4700-B276-474756CE7FE7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "..\tests\tests.vcxproj", "{FAF7784E-0DCA-48CC-B12B-A5C7D68DC39B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GTest", "..\GTest\GTest.vcxproj", "{C6C3DED7-2930-4B3E-9F61-731B3D175D5F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61DEE12F-57D1-4700-B276-474756CE7FE7} = {61DEE12F-57D1-4700-B276-474756CE7FE7}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +41,22 @@ Global
 		{61DEE12F-57D1-4700-B276-474756CE7FE7}.Release|x64.Build.0 = Release|x64
 		{61DEE12F-57D1-4700-B276-474756CE7FE7}.Release|x86.ActiveCfg = Release|Win32
 		{61DEE12F-57D1-4700-B276-474756CE7FE7}.Release|x86.Build.0 = Release|Win32
+		{FAF7784E-0DCA-48CC-B12B-A5C7D68DC39B}.Debug|x64.ActiveCfg = Debug|x64
+		{FAF7784E-0DCA-48CC-B12B-A5C7D68DC39B}.Debug|x64.Build.0 = Debug|x64
+		{FAF7784E-0DCA-48CC-B12B-A5C7D68DC39B}.Debug|x86.ActiveCfg = Debug|Win32
+		{FAF7784E-0DCA-48CC-B12B-A5C7D68DC39B}.Debug|x86.Build.0 = Debug|Win32
+		{FAF7784E-0DCA-48CC-B12B-A5C7D68DC39B}.Release|x64.ActiveCfg = Release|x64
+		{FAF7784E-0DCA-48CC-B12B-A5C7D68DC39B}.Release|x64.Build.0 = Release|x64
+		{FAF7784E-0DCA-48CC-B12B-A5C7D68DC39B}.Release|x86.ActiveCfg = Release|Win32
+		{FAF7784E-0DCA-48CC-B12B-A5C7D68DC39B}.Release|x86.Build.0 = Release|Win32
+		{C6C3DED7-2930-4B3E-9F61-731B3D175D5F}.Debug|x64.ActiveCfg = Debug|x64
+		{C6C3DED7-2930-4B3E-9F61-731B3D175D5F}.Debug|x64.Build.0 = Debug|x64
+		{C6C3DED7-2930-4B3E-9F61-731B3D175D5F}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6C3DED7-2930-4B3E-9F61-731B3D175D5F}.Debug|x86.Build.0 = Debug|Win32
+		{C6C3DED7-2930-4B3E-9F61-731B3D175D5F}.Release|x64.ActiveCfg = Release|x64
+		{C6C3DED7-2930-4B3E-9F61-731B3D175D5F}.Release|x64.Build.0 = Release|x64
+		{C6C3DED7-2930-4B3E-9F61-731B3D175D5F}.Release|x86.ActiveCfg = Release|Win32
+		{C6C3DED7-2930-4B3E-9F61-731B3D175D5F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,1 +1,5 @@
-﻿  main.vcxproj -> C:\Users\Admin\Desktop\говно по поздяеву\Lab\main\x64\Debug\main.exe
+﻿  initialization.cpp
+  main.cpp
+D:\лб\lb\main.cpp(19,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  main.vcxproj -> D:\лб\lb\main\x64\Debug\main.exe
